@@ -6,4 +6,6 @@ class FirstScene(Scene):
         sq = Square()
         circ = Circle().set_fill(opacity=1)
         self.play(Transform(sq, circ))
-        self.wait() 
+        self.wait()
+
+#Revisado
